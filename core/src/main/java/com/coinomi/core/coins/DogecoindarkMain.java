@@ -23,7 +23,7 @@ public class DogecoindarkMain extends CoinType {
         symbol = "DOGED";
         uriScheme = "dogecoindark";
         bip44Index = 77;
-        unitExponent = 8;
+        unitExponent = 6;
         feePerKb = value(10000000);
         minNonDust = value(1000000); // 0.00001 DOGED mininput
         softDustLimit = value(10000000); // 0.1 DOGED
